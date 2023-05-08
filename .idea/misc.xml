@@ -1,0 +1,59 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/gbhy1/.gradle/caches/transforms-3/17ab4892de419354d9ffd33965dcbc2e/transformed/jetified-MotionToast-1.4/res/drawable/toast_round_background.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/drawable-v24/ic_person_white.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/drawable/buttonshape.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/drawable/ghazi.xml" value="0.15" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/drawable/ic_arrow.xml" value="0.2296875" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/drawable/ic_baseline_map_24.xml" value="0.38333333333333336" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/drawable/ic_home.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2947916666666667" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/drawable/ic_phone.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/drawable/round_outline.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/drawable/wave.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/activity_about_us.xml" value="0.2971014492753623" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/activity_detail_article.xml" value="0.25905797101449274" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/activity_edit_profile.xml" value="0.32563405797101447" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/activity_home.xml" value="0.14795918367346939" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/activity_main.xml" value="0.4753787878787879" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/activity_map.xml" value="0.371875" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/activity_sign_up.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/activity_splash_screen.xml" value="0.3088768115942029" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/activity_user_profile.xml" value="0.32563405797101447" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/bottom_sheet.xml" value="0.11170212765957446" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/custom_dialog_view.xml" value="0.32563405797101447" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/fragment_claims.xml" value="0.25905797101449274" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/fragment_extrait.xml" value="0.3578125" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/fragment_favourites.xml" value="0.33" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/fragment_h_h.xml" value="0.21105072463768115" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/fragment_home.xml" value="0.44995864350703063" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/fragment_settings.xml" value="0.3648148148148148" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/fragment_user_profile.xml" value="0.33157894736842103" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/item_add.xml" value="0.32563405797101447" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/item_email.xml" value="0.22" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/item_image.xml" value="0.32563405797101447" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/item_info.xml" value="0.32563405797101447" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/nav_header.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/one_item_card.xml" value="0.38563829787234044" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/one_item_card_articles.xml" value="0.3930635838150289" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/one_item_card_claim.xml" value="0.5" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/layout/reset_password_dialog_view.xml" value="0.389937106918239" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/menu/menu.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/menu/menuDrawer.xml" value="0.2630208333333333" />
+        <entry key="..\:/Users/gbhy1/AndroidStudioProjects/Baladeyti/app/src/main/res/menu/menu_drawer.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

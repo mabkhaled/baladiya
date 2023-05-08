@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/ic_claims"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Claims" />
+
+    <item
+        android:id="@+id/ic_setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings" />
+
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/nav_editProfile"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="Edit Profile" />
+
+
+
+    <item
+        android:id="@+id/nav_disconnect"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="Disconnect" />
+
+
+    <item
+        android:id="@+id/nav_who"
+        android:icon="@drawable/ic_baseline_question_answer_24"
+        android:title="Who are we ?" />
+    <item
+        android:id="@+id/nav_terms"
+        android:icon="@drawable/ic_baseline_article_24"
+        android:title="Terms and Condictions" />
+
+
+</menu>

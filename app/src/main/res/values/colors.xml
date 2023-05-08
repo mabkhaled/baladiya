@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#14579a</color>
+    <color name="secondary">#f0f1f2</color>
+    <color name="tertiary">#b53bda</color>
+    <color name="quaternary">#8fa4b6</color>
+    <color name="dinairy">#a89748</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="underLine">#bdb8b8</color>
+    <color name="laymouna">#eef3ff</color>
+</resources>

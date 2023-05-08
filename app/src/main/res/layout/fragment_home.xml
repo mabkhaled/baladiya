@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.HomeFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/building"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="100dp"
+            android:src="@drawable/building" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_below="@id/building"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Welcome to Baladeyti"
+            android:textColor="@color/primary"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationNoreponse"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/textView1"
+            android:scaleType="centerCrop"
+            app:lottie_rawRes="@raw/building" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/animationNoreponse"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Baladeyti is a mobile application, regrouping certain individuals to improve their local municipality experience whether by reporting certain event or by getting news"
+            android:textColor="@color/primary"
+            android:textStyle="bold" />
+
+
+        <RelativeLayout
+            android:id="@+id/background"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_below="@id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/people" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@id/background"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="file a complaint"
+            android:textColor="@color/design_default_color_secondary"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@id/textView3"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Check on your local municipalities news"
+            android:textColor="#2196F3"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/btnandothers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_centerHorizontal="true">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/complaintbtn"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/design_default_color_secondary"
+                android:text="Complaint" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/newsbtn"
+                android:layout_width="100dp"
+                android:layout_height="55dp"
+                android:layout_below="@id/btnandothers"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20dp"
+                android:backgroundTint="#2196F3"
+                android:text="News" />
+
+
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/nav_who"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnandothers"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#FFD600"
+            android:text="Who are we ?" />
+       <!-- <ScrollView
+
+            android:id="@+id/scrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+
+                android:id="@+id/relativeLayouta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Articles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="Choose a municipality !"
+                    android:textColor="@color/primary"
+                    android:textStyle="italic" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_viewArticleList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/Articles"
+                    android:layout_marginTop="10dp"
+                    android:scrollbars="horizontal"
+                    tools:itemCount="6" />
+
+            </RelativeLayout>
+        </ScrollView>-->
+
+
+    </RelativeLayout>
+</ScrollView>
+</FrameLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.UserProfileFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                    android:text="My"
+                    android:textColor="@color/primary"
+                    android:textSize="30sp"
+                    android:textStyle="normal"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                    <ImageButton
+                        android:id="@+id/ic_profileSettings"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ic_baseline_settings_24" />
+                    <ImageButton
+                        android:id="@+id/ic_profileDisconnect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/ic_profileSettings"
+                        android:src="@drawable/ic_exit" />
+                </RelativeLayout>
+
+                <TextView
+                    android:text="Profile"
+                    android:textColor="@color/primary"
+                    android:textSize="33sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <include
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_height="wrap_content"
+            layout="@layout/item_image"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <include layout="@layout/item_add"/>
+                <include layout="@layout/item_info"/>
+                <include layout="@layout/item_email"/>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:headerLayout="@layout/nav_header"
+            app:menu="@menu/menu_drawer"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true" />
+    </LinearLayout>
+</FrameLayout>

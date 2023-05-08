@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.FavouritesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+
+            android:id="@+id/complaint_form"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/complaint_form_foreground" />
+
+        <!--<TextView
+            android:id="@+id/textView2"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/complaint_form"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Welcome to the Complain Zone"
+            android:textColor="@color/primary"
+            android:textStyle="bold" />-->
+
+        <TextView
+            android:id="@+id/textComplaint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/complaint_form"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="File your complaint"
+            android:textColor="@color/quaternary"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/formContainer"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textComplaint"
+            android:background="@drawable/round_outline"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:id="@+id/txtLayoutTopic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="10dp"
+                android:textColorHint="@color/primary"
+                app:errorEnabled="true"
+
+                app:startIconDrawable="@drawable/ic_baseline_email_24"
+                app:startIconTint="@color/design_default_color_secondary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/customEditTextTopic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textSize="12dp"
+                    android:drawableStart="@drawable/ic_lock"
+                    android:ems="10"
+                    android:hint="Topic of your complaint"
+                    android:inputType="textPersonName"
+                    android:textColorHint="@color/primary" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txtLayoutSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtLayoutTopic"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="10dp"
+                android:textColorHint="@color/primary"
+                app:errorEnabled="true"
+                app:startIconDrawable="@drawable/ic_baseline_email_24"
+                app:startIconTint="@color/design_default_color_secondary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/customEditTextSubject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textSize="12dp"
+                    android:drawableStart="@drawable/ic_lock"
+                    android:ems="10"
+                    android:hint="Content of your complaint"
+                    android:inputType="textPersonName" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/formContainer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Click the map To pick a location of your complaint"
+            android:textColor="@color/quaternary"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/btnImage"
+            android:layout_width="30dp"
+            android:layout_height="48dp"
+            android:layout_below="@id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/red_marker" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/primary"
+            android:text="Send my complaint"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            app:icon="@drawable/ic_baseline_article_24"
+            app:iconGravity="end" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/mapBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:src="@drawable/ic_photo_camera_black_48dp" />
+            <!--app:layout_anchor="@string/bottom_sheet_behavior"
+            app:layout_anchorGravity="top|end" -->
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+</FrameLayout>

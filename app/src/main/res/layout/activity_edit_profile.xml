@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.EditProfileActivity">
+
+    <View
+        android:id="@+id/topView"
+        android:layout_width="411dp"
+        android:layout_height="150dp"
+        android:background="@color/primary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="411dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/wave"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileimage"
+        android:layout_width="143dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_baseline_person_outline_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="4dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/profileimage"
+        app:layout_constraintStart_toStartOf="@+id/profileimage"
+        app:srcCompat="@drawable/ic_photo_camera_black_48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:gravity="center"
+        android:layout_width="309dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="304dp"
+        android:background="@drawable/buttonshape"
+        android:drawableStart="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="LastName"
+        android:inputType="text"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+
+        android:id="@+id/firstName"
+        android:layout_width="309dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="240dp"
+        android:gravity="center"
+        android:drawableStart="@drawable/ic_baseline_person_outline_24"
+        android:background="@drawable/buttonshape"
+        android:ems="10"
+        android:hint="firstName"
+        android:inputType="text"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/Email"
+        android:layout_width="309dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="368dp"
+        android:background="@drawable/buttonshape"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Number"
+        android:gravity="center"
+        android:layout_width="309dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/buttonshape"
+        android:drawableStart="@drawable/ic_baseline_local_phone_24"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Number"
+        android:inputType="text|number"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cin"
+        android:layout_width="309dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="508dp"
+        android:background="@drawable/buttonshape"
+        android:drawableStart="@drawable/ic_card"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="National identity"
+        android:inputType="text|number"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonUpdate"
+        android:layout_width="253dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="580dp"
+        android:text="Update"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

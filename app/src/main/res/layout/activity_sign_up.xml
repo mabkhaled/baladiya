@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shinybackground"
+    tools:context=".activities.SignUpActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/singin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="left"
+        android:text="Sign Up Baladeyti"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/building"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="110dp"-->
+<!--        android:layout_below="@id/singin"-->
+<!--        android:src="@drawable/building" />-->
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationNoreponse"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/singin"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            app:lottie_rawRes="@raw/people" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/animationNoreponse"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_person_white"
+        android:drawablePadding="20dp"
+        android:hint="Email-Address"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawablePadding="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:drawablePadding="20dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnandothers"
+        android:layout_below="@id/confirmPassword"
+        android:layout_centerHorizontal="true">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:id="@+id/signupbtn"
+            android:text="Sign Up"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/socialicons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+<!--        <TextView-->
+<!--            android:id="@+id/others"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:text="or sign in with"-->
+<!--            android:textColor="@color/white"/>-->
+
+<!--        <androidx.constraintlayout.utils.widget.ImageFilterView-->
+<!--            android:layout_width="48dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:src="@drawable/google" />-->
+
+<!--        <androidx.constraintlayout.utils.widget.ImageFilterView-->
+<!--            android:layout_width="48dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:src="@drawable/facebook" />-->
+
+<!--        <androidx.constraintlayout.utils.widget.ImageFilterView-->
+<!--            android:layout_width="48dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:src="@drawable/twitter" />-->
+
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>
