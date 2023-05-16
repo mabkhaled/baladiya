@@ -32,7 +32,7 @@ interface ApiClaim {
         fun create(): ApiClaim {
             val retrofit = Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create())
-                .baseUrl("http://192.168.1.3:3000")
+                .baseUrl("http://192.168.30.3:3000")
                 .build()
             return retrofit.create(ApiClaim::class.java)
 
